@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "login-token",
+      "value": "b748ba9b-5be3-4bde-b9e3-2861cd343981%3ac5eb82c7-6668-4b59-9df6-b7864a46f483_dfa144b678159438560b5d1392464fa9%3acrx.default",
+      "domain": "localhost",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cq-authoring-mode",
+      "value": "TOUCH",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1691780986.401332,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
