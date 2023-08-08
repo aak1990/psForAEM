@@ -1,5 +1,5 @@
 export const goToAPage = async (page, config) => {
-    await page.goto(`http://localhost:4502/editor.html/content/${config.siteId}/language-masters/en/${config.pageId}.html`);
+    await page.goto(`http://localhost:4502/editor.html/content/wknd/language-masters/en/${config.pageId}.html`);
 }
 
 export const addAComponent = async (page, config) => {
