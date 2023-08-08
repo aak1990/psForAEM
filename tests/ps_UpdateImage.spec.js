@@ -25,7 +25,7 @@ test("update an image", async ({ page }) => {
   const fileChooserPromise = page.waitForEvent("filechooser");
   await page.locator("a", { hasText: "browse" }).click();
   const fileChooser = await fileChooserPromise;
-  await fileChooser.setFiles("image.jpg");
+  await fileChooser.setFiles("image.png");
   await page.waitForLoadState("networkidle");
   await page.getByLabel(`Don’t provide an alternative text`).check();
   await page.getByLabel(`Don’t provide an alternative text`).uncheck();

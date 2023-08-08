@@ -21,12 +21,9 @@ test("remove an element", async ({ page }) => {
     .all();
   await newButtons[0].dblclick();
   await page.waitForLoadState("networkidle");
-  await page.locator(`//input[@value="${config.description}"]`).click()
-  await page.keyboard.press('Tab')
-  await page.keyboard.press('Enter')
+  await page.locator(`//input[@value="${config.description}"]`).click();
+  await page.keyboard.press("Tab");
+  await page.keyboard.press("Enter");
 
   await page.locator('//*[@icon="check" and @title="Done"]').click();
-  
-
-  
 });
